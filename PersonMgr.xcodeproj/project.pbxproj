@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20007EA42180922A004E2E5F /* PersonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20007EA32180922A004E2E5F /* PersonDetailVC.swift */; };
 		2034C0D22180513F00F08676 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2034C0D12180513F00F08676 /* AppDelegate.swift */; };
 		2034C0D42180513F00F08676 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2034C0D32180513F00F08676 /* FirstViewController.swift */; };
 		2034C0D62180513F00F08676 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2034C0D52180513F00F08676 /* SecondViewController.swift */; };
@@ -15,6 +16,8 @@
 		2034C0DE2180514000F08676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2034C0DC2180514000F08676 /* LaunchScreen.storyboard */; };
 		2034C0E92180514000F08676 /* PersonMgrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2034C0E82180514000F08676 /* PersonMgrTests.swift */; };
 		2034C0F42180514000F08676 /* PersonMgrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2034C0F32180514000F08676 /* PersonMgrUITests.swift */; };
+		2034C1042180532B00F08676 /* PersonTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2034C1032180532B00F08676 /* PersonTVC.swift */; };
+		2034C1062180561F00F08676 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2034C1052180561F00F08676 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20007EA32180922A004E2E5F /* PersonDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailVC.swift; sourceTree = "<group>"; };
 		2034C0CE2180513F00F08676 /* PersonMgr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonMgr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2034C0D12180513F00F08676 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2034C0D32180513F00F08676 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 		2034C0EF2180514000F08676 /* PersonMgrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonMgrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2034C0F32180514000F08676 /* PersonMgrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonMgrUITests.swift; sourceTree = "<group>"; };
 		2034C0F52180514000F08676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2034C1032180532B00F08676 /* PersonTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTVC.swift; sourceTree = "<group>"; };
+		2034C1052180561F00F08676 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				2034C0DA2180514000F08676 /* Assets.xcassets */,
 				2034C0DC2180514000F08676 /* LaunchScreen.storyboard */,
 				2034C0DF2180514000F08676 /* Info.plist */,
+				2034C1032180532B00F08676 /* PersonTVC.swift */,
+				2034C1052180561F00F08676 /* Person.swift */,
+				20007EA32180922A004E2E5F /* PersonDetailVC.swift */,
 			);
 			path = PersonMgr;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2034C1062180561F00F08676 /* Person.swift in Sources */,
 				2034C0D62180513F00F08676 /* SecondViewController.swift in Sources */,
+				20007EA42180922A004E2E5F /* PersonDetailVC.swift in Sources */,
 				2034C0D22180513F00F08676 /* AppDelegate.swift in Sources */,
+				2034C1042180532B00F08676 /* PersonTVC.swift in Sources */,
 				2034C0D42180513F00F08676 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
